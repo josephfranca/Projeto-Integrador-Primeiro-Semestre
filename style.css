@@ -22,22 +22,24 @@ header img {
 nav {
     background-color: rgb(250, 212, 129);
     display: flex;
+   
 }
 
-a {
+nav a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 30px;
     
 }
 
-a:hover{
+nav a:hover{
     text-decoration: underline;
 }
 
 .cardMae img{
     margin-top: 300px;
     margin-left: 50px;
+    margin-bottom: 75px;
     border-radius: 20px;
     border: 10px solid rgb(250, 212, 129);
     width: 500px;
@@ -138,7 +140,11 @@ a:hover{
     margin-top: 360px;  
 }
 */
-nav{
-    margin-bottom: 20px;
-    /*Para separar o carrossel do nav*/
+
+
+
+.card_alinhado{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
 }
