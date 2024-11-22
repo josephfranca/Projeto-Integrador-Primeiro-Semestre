@@ -1,7 +1,9 @@
 * {
     margin: auto;
     padding: 0px;
-    font-family: 'cookie', cursive;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
  
 }
 
@@ -37,14 +39,24 @@ nav a:hover{
     text-decoration: underline;
 }
 
+.sobrenos p{
+    margin-top: 150px;
+    font-size: 125px;
+    text-align: center;
+    border: 10px solid rgb(250, 212, 129);
+    
+    
+}
+
+
 .cardMae img{
-    margin-top: 300px;
+    margin-top: 100px;
     margin-left: 50px;
     margin-bottom: 75px;
     border-radius: 20px;
     border: 10px solid rgb(250, 212, 129);
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 700px;
 }
 
 .cardMae{
@@ -56,9 +68,38 @@ nav a:hover{
 
 .textocard1{
     font-size: 50px;
-    text-align: center;
-    margin-top: 400px ;
+    text-align: center; 
+    margin-top: 250px;
 }
+
+
+.carousel-inner img {
+    height: 600px;
+    object-fit: cover; 
+  }
+
+
+.card_alinhado{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+.card_alinhado img{
+    height: 370px;
+    
+ 
+}
+
+
+
+
+
+
+
+
+
 
 /*
 
@@ -145,38 +186,3 @@ nav a:hover{
 
 */
 
-.carousel-inner img {
-    height: 600px;
-    object-fit: cover; 
-  }
-
-
-.card_alinhado{
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-}
-
-/*CSS da página catalgo*/
-.containercatalogo{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-.quadradocatalogo{
-    margin-bottom: 20px;
-    margin-top: 25px;
-    width: 1500px;
-    height: 1200px;
-    border: 2px solid black;
-    
-}
-
-.quadradomenor{
-    height: 680px;
-    width: 680px;
-    border: 2px solid blue;
-    margin-top: 200px;
-    margin-left: 50px;
-    float: left;
-}
