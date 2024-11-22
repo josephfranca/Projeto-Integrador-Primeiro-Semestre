@@ -156,3 +156,27 @@ nav a:hover{
     justify-content: center;
     gap: 5px;
 }
+
+/*CSS da página catalgo*/
+.containercatalogo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.quadradocatalogo{
+    margin-bottom: 20px;
+    margin-top: 25px;
+    width: 1500px;
+    height: 1200px;
+    border: 2px solid black;
+    
+}
+
+.quadradomenor{
+    height: 680px;
+    width: 680px;
+    border: 2px solid blue;
+    margin-top: 200px;
+    margin-left: 50px;
+    float: left;
+}
